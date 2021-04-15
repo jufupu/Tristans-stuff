@@ -78,6 +78,17 @@ namespace TankWar
                 pictureBox1.Refresh();
             }
 
+            switch (p2Shelltraj, P2Tank_traj) {
+
+                case Left:
+                {
+                    pictureBox1.Image = Image.FromFile(path + "shell.bmp");
+                    pictureBox1.Left = pictureBox1.Left - 5;
+                    pictureBox1.Refresh();
+                        P2Tank_traj = 1;
+            }
+        }
+
             // player 1 fires using 'F' key 
             if (e.KeyCode.ToString() == "F")
             {
