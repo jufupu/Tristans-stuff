@@ -12,14 +12,58 @@ namespace TankWar
 {
     public partial class Form1 : Form
     {
-
-        int P2Tank_traj, p2Shelltraj;
+        int P2Tank_traj = 1;
+        int p2Shelltraj;
+        Boolean p2shelllive;
         
         string path = "C:/Users/Tristan/Documents/Uni/3rd year/Programming for mobile devices/Game Prototype/images/";
         public Form1()
         {
             InitializeComponent();
             this.KeyDown += new KeyEventHandler(OnKeyDown);
+        }
+        private void initialisep2firing()
+        {
+
+            pictureBox3.Left = -100;
+            pictureBox3.Top = -100;
+
+            p2Shelltraj = 0;
+            p2shelllive = false;
+        }
+        private void p2firing()
+        {
+            p2shelllive = true;
+            SET_TRAJECTORY();
+        }
+
+        private void SET_TRAJECTORY()
+        {
+            if (P2Tank_traj == 1)
+            {
+                pictureBox3.Left = pictureBox2.Left;
+                pictureBox3.Top = pictureBox2.Top + (pictureBox2.Height / 2);
+                p2Shelltraj = 1;
+            }
+            if (P2Tank_traj == 2)
+            {
+                pictureBox3.Left = pictureBox2.Left + pictureBox2.Width;
+                pictureBox3.Top = pictureBox2.Top + (pictureBox2.Height / 2);
+                p2Shelltraj = 2;
+            }
+            if (P2Tank_traj == 3)
+            {
+                pictureBox3.Left = pictureBox2.Left + (pictureBox2.Width / 2);
+                pictureBox3.Top = pictureBox2.Top + pictureBox2.Height;
+                p2Shelltraj = 3;
+            }
+            if (P2Tank_traj == 4)
+            {
+
+                pictureBox3.Left = pictureBox2.Left + (pictureBox2.Width / 2);
+                pictureBox3.Top = pictureBox2.Top;
+                p2Shelltraj = 4;
+            }
         }
 
         public void OnKeyDown(object sender, KeyEventArgs e)
@@ -29,6 +73,7 @@ namespace TankWar
                 pictureBox1.Image = Image.FromFile(path +"tank1.bmp");
                 pictureBox1.Left = pictureBox1.Left - 5;
                 pictureBox1.Refresh();
+                
             }
             if (e.KeyCode.ToString()=="D")
             {
@@ -78,17 +123,6 @@ namespace TankWar
                 pictureBox1.Refresh();
             }
 
-            switch (p2Shelltraj, P2Tank_traj) {
-
-                case Left:
-                {
-                    pictureBox1.Image = Image.FromFile(path + "shell.bmp");
-                    pictureBox1.Left = pictureBox1.Left - 5;
-                    pictureBox1.Refresh();
-                        P2Tank_traj = 1;
-            }
-        }
-
             // player 1 fires using 'F' key 
             if (e.KeyCode.ToString() == "F")
             {
@@ -96,47 +130,58 @@ namespace TankWar
             }
                 
             //Player 2 controls
-            if (e.KeyCode.ToString() == "Left")
+            if (e.KeyCode.ToString() == "J")
             {
                 pictureBox2.Image = Image.FromFile(path +"tank1.bmp");
                 pictureBox2.Left = pictureBox2.Left - 5;
                 pictureBox2.Refresh();
-                P2Tank_traj = 1;
             }
-            if (e.KeyCode.ToString() == "Right")
+            if (e.KeyCode.ToString() == "L")
             {
                 pictureBox2.Image = Image.FromFile(path + "tank2.bmp");
                 pictureBox2.Left = pictureBox2.Left + 5;
                 pictureBox2.Refresh();
-                P2Tank_traj = 2;
             }
-            if (e.KeyCode.ToString() == "Down")
+            if (e.KeyCode.ToString() == "K")
             {
                 pictureBox2.Image = Image.FromFile(path + "tank3.bmp");
                 pictureBox2.Top = pictureBox2.Top + 5;
                 pictureBox2.Refresh();
-                P2Tank_traj = 3;
             }
-            if (e.KeyCode.ToString() == "Up")
+            if (e.KeyCode.ToString() == "I")
             {
                 pictureBox2.Image = Image.FromFile(path + "tank4.bmp");
                 pictureBox2.Top = pictureBox2.Top - 5;
                 pictureBox2.Refresh();
-                P2Tank_traj = 4;
             }
+
+            //SHELL TRAJ
+            switch (p2Shelltraj)
+            {
+                case 1:
+                    pictureBox3.Image = Image.FromFile(path + "shell.bmp");
+                    pictureBox3.Left = pictureBox3.Left - 5;
+                    pictureBox3.Refresh();
+                    P2Tank_traj = 1;
+                    break;
+            }
+
+
+
+
+
+
 
             //player 2 fires using '5' key
+
             if (e.KeyCode.ToString() == "5")
             {
-             
+                p2firing();
             }
-
-
-
-
                 //detects walls 
                 //DetectWall();
                 OffscreenOnscreen();
+                initialisep2firing();
         }
         public void DetectWall()
         {
@@ -223,5 +268,13 @@ namespace TankWar
             }
         }
 
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+                    }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
