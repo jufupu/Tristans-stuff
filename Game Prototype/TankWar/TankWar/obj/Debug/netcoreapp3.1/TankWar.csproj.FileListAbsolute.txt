@@ -1,0 +1,16 @@
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\bin\Debug\netcoreapp3.1\TankWar.exe
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\bin\Debug\netcoreapp3.1\TankWar.deps.json
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\bin\Debug\netcoreapp3.1\TankWar.runtimeconfig.json
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\bin\Debug\netcoreapp3.1\TankWar.runtimeconfig.dev.json
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\bin\Debug\netcoreapp3.1\TankWar.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\bin\Debug\netcoreapp3.1\TankWar.pdb
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.csprojAssemblyReference.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.Form1.resources
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.Properties.Resources.resources
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.csproj.GenerateResource.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.AssemblyInfoInputs.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.AssemblyInfo.cs
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.csproj.CoreCompileInputs.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.pdb
+C:\Users\Tristan\Documents\Uni\3rd year\Programming for mobile devices\Game Prototype\TankWar\TankWar\obj\Debug\netcoreapp3.1\TankWar.genruntimeconfig.cache
