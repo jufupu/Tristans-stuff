@@ -25,8 +25,9 @@ namespace TankWar
         {
             InitializeComponent();
             this.KeyDown += new KeyEventHandler(OnKeyDown);
-            initialisep2firing();
-   
+            initialisep2firing(); 
+
+
         }
         public void OnKeyDown(object sender, KeyEventArgs e)
         {
@@ -124,11 +125,11 @@ namespace TankWar
         //Timers for shell movement 
         Timer timer1 = new Timer
         {
-            Interval = 5000
+            Interval = 10
         };
         Timer timer2 = new Timer
         {
-            Interval = 5000
+            Interval = 10
         };
         //Functions for firing
         private void p1firing()
