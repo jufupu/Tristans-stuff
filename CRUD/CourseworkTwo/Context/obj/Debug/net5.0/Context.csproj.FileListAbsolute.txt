@@ -1,0 +1,15 @@
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.csprojAssemblyReference.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.AssemblyInfoInputs.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.AssemblyInfo.cs
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.csproj.CoreCompileInputs.cache
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\bin\Debug\net5.0\Context.deps.json
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\bin\Debug\net5.0\Context.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\bin\Debug\net5.0\ref\Context.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\bin\Debug\net5.0\Context.pdb
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\bin\Debug\net5.0\Entities.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\bin\Debug\net5.0\Entities.pdb
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.csproj.CopyComplete
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\ref\Context.dll
+C:\Users\Tristan\Documents\Uni\3rd year\Internet Scripting\CourseworkTwo\Context\obj\Debug\net5.0\Context.pdb

@@ -1,0 +1,17 @@
+@page
+@model WebApp.Pages.AlbumsModel
+<div class="row">
+ <h1 class="display-2">Albums</h1>
+ <table class="table">
+ <thead class="thead-inverse">
+ <tr><th>Titles</th></tr>
+ </thead>
+ <tbody>
+        @foreach (string Name in Model.Tracks)
+        {
+           <tr><td> @Name </td></tr>
+        }
+
+    </tbody>
+    </table>
+</div>
